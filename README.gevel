@@ -18,8 +18,8 @@ BSD license. Development version, available from this site, released under
 the GNU General Public License, version 2 (June 1991)
 
 Install gevel module (requires 8.1+ version):
-% cd PGSQLSRC/contrib
-% tar xzvf gevel.tar.gz
+% git clone repo
+% apt install postgresql-server-dev-[your PostgreSQL version, like `15`]
 % make
 % make install
 % make installcheck
